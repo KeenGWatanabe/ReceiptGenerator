@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>Receipt App</title>
+  </head>
+  <body>
+    <!--input id="todo-title" type="text" /-->
+    <form action="/action_page.php">
+        <label for="staff">请选择 :</label>
+        <select name="staff" id="todo-title">
+          <option value="select" />Please select
+          <option value="BM-Hong Mei" />BM-Hong Mei
+          <option value="BM-Yu Shuang" />BM-Yu Shuang
+          <option value="BM-Liu Yan" />BM-Liu Yan
+          <option value="CP1-" />CP1-
+          <option value="HLM-Li Ying" />HLM-Li Ying
+          <option value="HLM-Yue Mei" />HLM-Yue Mei
+          <option value="PPK1-Paul" />PPK1-Paul
+          <option value="PPK1-Lelia" />PPK1-Lelia
+          <option value="PPK3-Li Hua" />PPK3-Li Hua
+          <option value="PPK3-Fang Xia" />PPK3-Fang Xia
+          <option value="PPK3-Nichole" />PPK3-Nichole
+          <option value="PPK3-Aaron Lee" />PPK3-Aaron Lee
+          <option value="WWP-Jiang Di" />WWP-Jiang Di 
+          <option value="WWP-Vivian" />WWP-Vivian
+          <option value="WWP-Zheng Yan" />WWP-Zheng Yan
+          
+
+        </select>
+    </form>
+    <button onclick="printReceipt()">收据编号</button>
+    <input id="date-picker" type="text" />
+    <button onclick="addTodo()">保存收据</button>
+
+    <!--div id="todo-list"></div-->
+
+    <script src="script.js"></script>
+        </body>
+</html> 
+ 
